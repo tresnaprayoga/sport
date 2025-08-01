@@ -1,10 +1,28 @@
 .card-news {
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: black;
+  margin: 100px auto;
   padding: 5px;
-  border-bottom: 1px solid white;
+}
+
+.card-news h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: Poppins, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  font-weight: 500;
+  color: rgb(7, 7, 7);
+}
+
+.card-news p {
+  font-size: 15px;
+  font-weight: normal;
+  margin: 20px auto;
+  font-family: Tahoma;
+  width: 30%;
+  font-weight: normal;
+  text-align: center;
+  color: rgb(87, 83, 83);
 }
 
 .card-news h2 {
@@ -17,16 +35,6 @@
   font-weight: normal;
 }
 
-.card-news p {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  font-family: sans-serif;
-  font-weight: normal;
-  text-align: center;
-  color: white;
-}
-
 .list {
   display: flex;
   flex-wrap: wrap;
@@ -36,7 +44,8 @@
 
 .item {
   width: 350px;
-  background-color: #0e0606;
+  background-color: #fdfcfc;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .item-img {
@@ -53,7 +62,7 @@
 
 .item-date {
   font-size: 0.9em;
-  color: #ccc;
+  color: #0e0d0d;
   margin-bottom: 10px;
   font-family: sans-serif;
   font-weight: normal;
@@ -63,14 +72,14 @@
   font-size: 1.2em;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #fff;
+  color: #0e0d0d;
   font-family: sans-serif;
   font-weight: normal;
 }
 
 .item-description {
   font-size: 0.9em;
-  color: #ccc;
+  color: #0e0d0d;
   line-height: 1.5;
   font-family: sans-serif;
   font-weight: normal;
@@ -78,6 +87,28 @@
 
 /* Responsive Styles */
 @media (max-width: 768px) {
+  .card-news h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(7, 7, 7);
+  }
+
+  .card-news p {
+    font-size: 13px;
+    font-weight: normal;
+    margin: 20px auto;
+    font-family: Tahoma;
+    width: 80%;
+    font-weight: normal;
+    text-align: center;
+    color: rgb(87, 83, 83);
+  }
+
   .card-news {
     padding: 15px;
   }

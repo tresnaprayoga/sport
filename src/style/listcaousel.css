@@ -1,18 +1,41 @@
-.food-card {
-  text-align: center;
+.partners {
   width: 100%;
-  max-width: 250px;
+  margin: 160px auto;
+  padding: 2.5rem 0;
+  box-shadow: rgba(77, 224, 250, 0.35) 0px 5px 15px;
+}
+
+.partners h2 {
+  color: rgb(66, 63, 63);
+  font-weight: 300;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+}
+
+.food-list-slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
   margin: auto;
-  font-family: 'Poppins';
-  font-weight: lighter;
-  flex: 1 1 300px;
+}
+
+.food-card {
+  max-width: 220px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 180px;
+  padding: 0.3rem;
 }
 
 .food-image {
   width: 100%;
-  height: auto;
-  border-radius: 2rem;
+  height: 100px;
+  object-fit: contain;
   display: block;
+  align-items: center;
 }
 
 .food-title {
@@ -41,33 +64,32 @@
   background: #7c3aed;
 }
 
-/* Responsive container */
-.food-list-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  padding: 1rem;
-}
-
 /* Optional: tweak font size or layout on smaller screens */
 @media (max-width: 600px) {
+  /* Responsive container */
+
+  .partners {
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+  }
+  .food-list-slider {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.3rem;
+  }
   .food-title {
     font-size: 1rem;
   }
 
   .food-card {
+    width: 100px;
+    min-height: 100px;
     margin: auto;
   }
 
   .food-author {
     font-size: 0.85rem;
-  }
-
-  .play-button {
-    width: 50px;
-    height: 50px;
-    font-size: 1.5rem;
   }
 }
 
