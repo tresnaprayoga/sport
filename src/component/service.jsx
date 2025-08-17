@@ -45,9 +45,7 @@ const Service = () => (
           <a
             href={service.link}
             className="service-link"
-          >
-            Lihat Selengkapnya
-          </a>
+          ></a>
         </div>
       ))}
     </div>

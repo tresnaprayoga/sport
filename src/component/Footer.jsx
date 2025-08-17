@@ -1,3 +1,9 @@
+import {
+  FaSquareInstagram,
+  FaSquareFacebook,
+  FaSquareWhatsapp,
+} from "react-icons/fa6";
+
 const Footer = () => {
   return (
     <footer className="footer-container-restoran-satu">
@@ -12,9 +18,15 @@ const Footer = () => {
       <div className="footer-center-restoran-satu">
         <p>Ikuti kami</p>
         <div className="social-icons">
-          <span className="circle-icon"></span>
-          <span className="circle-icon"></span>
-          <span className="circle-icon"></span>
+          <span className="circle-icon">
+            <FaSquareInstagram />
+          </span>
+          <span className="circle-icon">
+            <FaSquareFacebook />
+          </span>
+          <span className="circle-icon">
+            <FaSquareWhatsapp />
+          </span>
         </div>
       </div>
 

@@ -1,9 +1,8 @@
 .achievement-section {
-  width: 60%;
-  margin: -100px auto 0px auto;
+  width: 100%;
+  margin: -90px auto 0px auto;
   padding: 2.5rem 0;
-  border-radius: 10px;
-  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+  background-color: black;
 }
 
 .achievement-title {
@@ -21,9 +20,8 @@
 }
 
 .achievement-card {
-  margin-top: -90px;
+  margin-top: 0px;
   border-radius: 16px;
-  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
   width: 200px;
   padding: 2rem 1.5rem 1.5rem 1.5rem;
   text-align: center;
@@ -50,7 +48,7 @@
 }
 
 .achievement-icon {
-  color: #2196f3;
+  color: #53f6c6;
   font-size: 2rem;
 }
 
@@ -59,31 +57,28 @@
   font-weight: 100;
   font-size: 2.2rem;
   font-weight: bold;
-  color: rgb(37, 37, 37);
+  color: rgb(252, 252, 252);
   margin-bottom: 0.2rem;
 }
 
 .achievement-label {
   font-family: Roboto;
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: #444;
+  font-size: 14px;
+  color: white;
   margin-bottom: 0.5rem;
 }
 
 .achievement-desc {
   font-family: Roboto;
-  font-weight: 300;
   font-size: 12px;
-  color: #666;
+  color: white;
 }
 
 @media (max-width: 900px) {
   .achievement-section {
+    margin: -90px auto 70px auto;
     margin: auto;
-    width: 80%;
-    border-radius: 10px;
-    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
   }
   .achievement-list {
     flex-direction: column;

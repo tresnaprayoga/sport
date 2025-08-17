@@ -4,7 +4,7 @@
   align-items: center;
   padding: 1rem 2rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: rgb(2, 215, 248);
+  background-color: rgb(25, 25, 26);
   right: 0;
   left: 0;
   position: fixed;
@@ -44,7 +44,7 @@
   font-size: 1rem;
   transition: color 0.3s ease;
   font-family: sans-serif;
-  font-weight: normal;
+  font-weight: bolder;
 }
 
 .navbar-link:hover {

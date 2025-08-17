@@ -1,5 +1,5 @@
 .footer-container-restoran-satu {
-  background-color: rgb(2, 215, 248);
+  background-color: rgb(25, 25, 26);
   color: white;
   display: flex;
   flex-direction: column;
@@ -35,20 +35,29 @@
 
 .social-icons {
   display: flex;
-  justify-content: center;
-  gap: 15px;
+  justify-content: center; /* rata tengah horizontal */
+  align-items: center;
+  gap: 1rem; /* jarak antar icon */
+  margin-top: 0.5rem;
 }
 
 .circle-icon {
-  width: 30px;
-  height: 30px;
-  background-color: #e5cfcf;
-  border-radius: 50%;
-  transition: transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* bulat */
+  background: #eee; /* warna latar belakang */
+  color: #333; /* warna icon */
+  font-size: 1.5rem;
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
 }
 
 .circle-icon:hover {
-  transform: scale(1.1);
+  background: #53f6c6; /* warna saat hover */
+  color: #fff;
 }
 
 .footer-right iframe {

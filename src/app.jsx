@@ -60,24 +60,12 @@ function App() {
             description={DataAbout.description}
             image={DataAbout.logo}
           />
-
-          <div
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="100"
-            className="achievement-section"
-          >
-            <AchievementList achievements={DataAchievement} />
-          </div>
         </section>
 
-        <section id="news">
-          <div
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="100"
-          >
-            <ListCardNews items={DataNews} />
+        <section id="gallery">
+          <div className="home-galery">
+            <h2>GALERY</h2>
+            <GalleryList images={DataGalery} />
           </div>
         </section>
 
@@ -86,10 +74,22 @@ function App() {
           <CarouseList carousel={DataCarousel} />
         </div>
 
-        <section id="gallery">
-          <div className="home-galery">
-            <h2>GALERY</h2>
-            <GalleryList images={DataGalery} />
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+          className="achievement-section"
+        >
+          <AchievementList achievements={DataAchievement} />
+        </div>
+
+        <section id="news">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <ListCardNews items={DataNews} />
           </div>
         </section>
       </main>
